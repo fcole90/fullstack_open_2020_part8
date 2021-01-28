@@ -1,0 +1,33 @@
+{
+  "name": "graphql-backend",
+  "version": "1.0.0",
+  "description": "Eight part of fullstack web development: https://fullstackopen.com/en/part8",
+  "main": "library-backend.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcole90/fullstack_open_2020_part8.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fcole90/fullstack_open_2020_part8/issues"
+  },
+  "homepage": "https://github.com/fcole90/fullstack_open_2020_part8#readme",
+  "dependencies": {
+    "apollo-server": "^2.19.2",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.13",
+    "mongoose-unique-validator": "^2.0.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
